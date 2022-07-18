@@ -1,6 +1,6 @@
-import Main from "./Container/Main"
+import Main from "./container/Main"
 
-import Sidebar from "./Container/Sidebar"
+import Sidebar from "./container/Sidebar"
 
 export default function Container() {
 

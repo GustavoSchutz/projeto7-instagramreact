@@ -1,4 +1,7 @@
 export default function Stories() {
+
+    // const stories = ["Item 1", "Item 2", "Item 3"];
+
     return (
         <div  className="stories">
         <div  className="padding"></div>
@@ -75,3 +78,12 @@ export default function Stories() {
      </div>
     );
 }
+// export default function Lista() {
+// 	const itens = ["Item 1", "Item 2", "Item 3"];
+
+// 	return (
+// 		<ul>
+// 			{itens.map(item => <li>item</li>}
+// 		</ul>
+// 	);
+// }
