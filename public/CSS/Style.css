@@ -51,6 +51,9 @@ body {
     color: #979797;
     font-size: 12px;
 }
+.visible {
+    visibility: visible;
+}
 .icons {
     font-size: 22px;
     width: 150px;
@@ -142,6 +145,10 @@ body {
 .like-comment-share ion-icon {
     margin-right: 8px;
     font-size: 22px;
+}
+.red {
+    color: red;
+    visibility: visible;
 }
 .save-post {
     margin-right: 15px;
