@@ -1,0 +1,289 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.bottombar{
+    /**display: none;**/
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.header {
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #DBDBDB;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    z-index: 2;
+}
+.topo {
+    height: 54px;
+    width: 935px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.logo {
+    font-size: 22px;
+}
+.logo ion-icon {
+    padding-right: 15px;
+    margin-bottom: 12px;
+    border-right: 1px solid #DBDBDB;
+}
+.logo img {
+    padding: 6px;
+}
+.search {
+    height: 28px;
+    width: 215px;
+    background-color: #FAFAFA;
+    border: 1px solid #DBDBDB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search p {
+    color: #979797;
+    font-size: 12px;
+}
+.icons {
+    font-size: 22px;
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+.container {
+    height: 100%;
+    background-color: #fafafa;
+    display: flex;
+    justify-content: center;
+}
+.stories {
+    margin-top: 74px;
+    width: 615px;
+    height: 120px;
+    background-color: #FFFFFF;
+    border: 1px solid #DBDBDB;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 5px;
+    
+}
+.padding {
+    width: 23px;
+    height: 100%;
+    background-color: violet;
+    border: 10px solid #FFFFFF;
+}
+.storie {
+    margin-right: 13px;
+    position: relative;
+    max-width: 66px;
+}
+.storie img {
+    width: 66px;
+
+}
+.top {
+    border-radius: 50%;
+}
+.inner-image {
+    position: absolute;
+    padding: 1px;
+    border: 4px solid rgba(43, 200, 211, 0.0);
+    box-sizing: border-box;
+}
+.storiebox {
+    display: flex;
+    padding-top: 12px;
+}
+.storyprofile {
+    display: flex;
+    justify-content: center;
+}
+.storyprofile p {
+    font-size: 12px;
+    color: #262626;
+}
+.post {
+    width: 615px;
+    height: 760px;
+    background-color: #FFFFFF;
+    margin-top: 60px;
+    border: 1px solid #DBDBDB;
+    border-radius: 5px;
+}
+.profile {
+    display: flex;
+    align-items: center;
+    padding-top: 15px;
+    padding-left: 17px;
+    padding-bottom: 11px;
+    border-bottom: 1px solid #efefef;
+}
+.profile p {
+    margin-left: 15px;
+    font-weight: 500;
+    color: #262626;
+}
+.reaction-icons {
+    display: flex;
+    justify-content: space-between;
+}
+.like-comment-share {
+    margin-left: 15px;
+}
+.like-comment-share ion-icon {
+    margin-right: 8px;
+    font-size: 22px;
+}
+.save-post {
+    margin-right: 15px;
+}
+.save-post ion-icon {
+    font-size: 22px;
+}
+.post-reactions {
+    margin-top: 10px;
+}
+.likes {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.likes img {
+    margin-right: 10px;
+}
+.medium {
+    font-weight: 500;
+}
+.sidebar {
+    width: 293px;
+    height: 480px;
+    background-color: #fafafa;
+    margin-top: 74px;
+    margin-left: 28px;
+}
+.sbProfile {
+    display: flex;
+    margin-top: 32px;
+    margin-bottom: 16px;
+    align-items: center;
+}
+.sbProfileName {
+    margin-left: 18px;
+}
+.sbdescription {
+    display: flex;
+    justify-content: space-between;
+}
+.sbsugestion {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 13px;
+}
+.sbabout {
+    margin-top: 15px;
+}
+.paddingseguir {
+    min-width: 90px;
+    background-color: #fafafa;
+}
+.weightMedium {
+    font-weight: 500;
+}
+.weightLight {
+    font-weight: 300;
+}
+.size14 {
+    font-size: 14px;
+}
+.size12 {
+    font-size: 12px;
+}
+.size11 {
+    font-size: 11px;
+}
+.color8E8E8E {
+    color: #8E8E8E;
+}
+.color262626 {
+    color: #262626;
+}
+.color139EF2 {
+    color: #139EF2;
+}
+.colorC7C7C7 {
+    color: #C7C7C7
+}
+@media screen and (min-width: 615px) and (max-width: 935px) {
+    .sidebar {
+        display: none;
+    }
+}
+@media screen and (max-width: 614px) {
+    *{
+        max-width: 100vw;
+    }
+    .post{
+        height: fit-content;
+    }
+    .container {
+        justify-content: flex-start;
+    }
+    .search {
+        display: none
+    }
+    .sidebar {
+        display: none;
+    }
+    .feed {
+        width: 100vw;
+    }
+    .bottombar{
+        display: initial;
+    }
+    .bottombar {
+        background-color: #FFFFFF;
+        border-top: 1px solid #DBDBDB;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        display: flex;
+        justify-content: center;
+        z-index: 3;
+    }
+    .bottom {
+        height: 54px;
+        width: 935px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .bottom .icons {
+        width: 100vw;
+        display: flex;
+        justify-content: space-between;
+        
+        
+    }
+    .padding {
+        border: 8px solid #fafafa;
+    }
+    .stories {
+        border: 1px solid #fafafa;
+        background-color: #FAFAFA;
+        margin-top: 44px;
+        margin-bottom: -50px;
+    }
+}
